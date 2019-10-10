@@ -19,6 +19,7 @@ public class Example {
 			System.out.println(noOfAdd.get(i).getAttribute("src"));
 			if("https://www.irctctourism.com/packageImage/home_page_image/16.jpg".equals(noOfAdd.get(i).getAttribute("src"))) {
 				noOfAdd.get(i).click();
+				System.out.println("----");
 			}
 		}
 	}
